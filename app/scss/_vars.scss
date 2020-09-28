@@ -1,0 +1,26 @@
+@mixin f100 {
+  font-family: 'Roboto';
+  font-weight: 100;
+}
+
+@mixin f300 {
+  font-family: 'Roboto';
+  font-weight: 300;
+}
+
+@mixin f500 {
+  font-family: 'Roboto';
+  font-weight: 500;
+}
+
+$mainColor: #ffe4b5;
+$text: #fefefd;
+$info: #fdfcfb;
+
+//переменные для адаптива
+$mw:1380;
+$md1:$mw+12;
+$md2: 992.98;
+$md3: 767.98;
+$md4:479.98;
+$minwidth:320px;

@@ -1,0 +1,29 @@
+// font-family: 'Roboto', sans-serif;
+
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot?5x9hr1');
+  src: url('../fonts/icomoon.eot?5x9hr1#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?5x9hr1') format('truetype'),
+    url('../fonts/icomoon.woff?5x9hr1') format('woff'),
+    url('../fonts/icomoon.svg?5x9hr1#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+.icon-facebook:before {
+  content: "\ea90";
+}
+
+.icon-instagram:before {
+  content: "\ea92";
+}
+
+.icon-whatsapp:before {
+  content: "\ea93";
+}
+
+.icon-twitter:before {
+  content: "\ea96";
+}
